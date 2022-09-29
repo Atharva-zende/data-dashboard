@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Raleway', sans-serif;
+}
+
+p,a {
+   font-family: 'Roboto', sans-serif;
+}
+
+img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    max-width: 1330px;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.clear {
+    clear: both;
+}
+
+/* sidebar css  */
+section#sidebar {
+    width: 20%;
+    background-color: red;
+    position: fixed;
+    left: 0;
+    top: 0;
+    color: #fff;
+    height: 100%;
+}
+
+section#main-content {
+    background-color: blue;
+    width: 80%;
+    float: right;
+}
